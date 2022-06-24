@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>short_description</display_field>
+        <field_list/>
+        <filter table="sn_customerservice_case">opened_by=6816f79cc0a8016401c5a33be04be441^active=true<item display_table="sys_user" display_value="Phuong  Nguyen Thi Mai" endquery="false" field="opened_by" goto="false" newquery="false" operator="=" or="false" value="6816f79cc0a8016401c5a33be04be441"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">95deb01d2f189110d44693acf699b66b</sp_column>
+        <sp_page display_value="ticket">84af292247132100ba13a5554ee4909e</sp_page>
+        <sp_widget display_value="Cases Simple List">5c760f5d7393330022139a1ee2f6a767</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-24 06:46:13</sys_created_on>
+        <sys_id>de95a9592f9c9110d44693acf699b6e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sp_instance_vlist_de95a9592f9c9110d44693acf699b6e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-24 06:57:43</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,state,sys_updated_on",
+		"displayValue": "number,state,sys_updated_on"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "0cd2b991cb23020000f8d856634c9cee",
+		"displayValue": "csm_cases"
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=de95a9592f9c9110d44693acf699b6e1"/>
+</record_update>
