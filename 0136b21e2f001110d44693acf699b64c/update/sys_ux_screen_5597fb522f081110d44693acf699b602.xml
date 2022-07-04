@@ -29,4 +29,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-06-15 09:42:15</sys_updated_on>
     </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=5597fb522f081110d44693acf699b602"/>
 </record_update>
