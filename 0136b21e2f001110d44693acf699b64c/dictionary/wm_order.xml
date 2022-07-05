@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="offline_timestamp_field=offline_device_timestamp" audit="true" extends="sm_order" label="Work Order" max_length="40" name="wm_order" sizeclass="3" text_index="true" type="collection">
+        <element attributes="encode_utf8=false,readonly_clickthrough=true" hint="Household" label="Household" max_length="32" name="household" reference="csm_household" type="reference"/>
+        <element attributes="encode_utf8=false,readonly_clickthrough=true" hint="Service Organization" label="Service Organization" max_length="32" name="service_organization" reference="sn_customer_service_organization" type="reference"/>
+    </element>
+</database>

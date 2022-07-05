@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>th-list</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">95deb01d2f189110d44693acf699b66b</sp_column>
+        <sp_page display_value="csm_cases">0cd2b991cb23020000f8d856634c9cee</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-24 06:44:14</sys_created_on>
+        <sys_id>912521592f9c9110d44693acf699b6e3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Cases</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sp_instance_link_912521592f9c9110d44693acf699b6e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-24 06:45:39</sys_updated_on>
+        <title>My Cases</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=912521592f9c9110d44693acf699b6e3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My CSM">0136b21e2f001110d44693acf699b64c</application>
+        <file_path/>
+        <instance_id>962e055edbc8f410431011f848961996</instance_id>
+        <instance_name>dev115856</instance_name>
+        <name>sp_instance_link_912521592f9c9110d44693acf699b6e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;th-list&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;95deb01d2f189110d44693acf699b66b&lt;/sp_column&gt;&lt;sp_page display_value="csm_cases"&gt;0cd2b991cb23020000f8d856634c9cee&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-24 06:44:14&lt;/sys_created_on&gt;&lt;sys_id&gt;912521592f9c9110d44693acf699b6e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Cases&lt;/sys_name&gt;&lt;sys_package display_value="My CSM" source="x_554940_my_csm"&gt;0136b21e2f001110d44693acf699b64c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My CSM"&gt;0136b21e2f001110d44693acf699b64c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_912521592f9c9110d44693acf699b6e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-24 06:45:39&lt;/sys_updated_on&gt;&lt;title&gt;My Cases&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=912521592f9c9110d44693acf699b6e3"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-204331181</payload_hash>
+        <record_name>My Cases</record_name>
+        <reverted_from/>
+        <source>94a6759d47981110be5a9db6926d43b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-24 08:00:42</sys_created_on>
+        <sys_id>e9a6b59d47981110be5a9db6926d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18194ba3e1b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-24 08:00:42</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>4a75a95173dc911027cf64f38fd4ceb3</update_guid>
+        <update_guid_history>4a75a95173dc911027cf64f38fd4ceb3:-204331181,2d252159f99c911005752e92a1bf34e4:-1205200151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Cases">900f4bfa4710d110be5a9db6926d43af</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-29 06:17:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>667dce712f4f4694b9f6494edcb59d04</sys_id>
+        <sys_metadata>912521592f9c9110d44693acf699b6e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Cases</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_scope_delete display_value="">fa390fa68fdc4f94ae3aa6df9fc21a10</sys_scope_delete>
+        <sys_update_name>sp_instance_link_912521592f9c9110d44693acf699b6e3</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_912521592f9c9110d44693acf699b6e3">e9a6b59d47981110be5a9db6926d431e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-29 06:17:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

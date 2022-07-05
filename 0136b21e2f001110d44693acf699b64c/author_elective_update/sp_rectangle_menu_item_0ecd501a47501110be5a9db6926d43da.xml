@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="DELETE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph/>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Log a Incident</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
+        <sp_rectangle_menu/>
+        <sp_rectangle_menu_item display_value="Log a Request">815e889647101110be5a9db6926d43cb</sp_rectangle_menu_item>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 04:12:30</sys_created_on>
+        <sys_id>0ecd501a47501110be5a9db6926d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log a Incident</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_0ecd501a47501110be5a9db6926d43da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 04:12:30</sys_updated_on>
+        <table/>
+        <type>page</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="DELETE" query="documentkey=0ecd501a47501110be5a9db6926d43da"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My CSM">0136b21e2f001110d44693acf699b64c</application>
+        <file_path/>
+        <instance_id>962e055edbc8f410431011f848961996</instance_id>
+        <instance_name>dev115856</instance_name>
+        <name>sp_rectangle_menu_item_0ecd501a47501110be5a9db6926d43da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition/><display_1/><display_2/><display_date/><filter/><glyph/><hint/><kb_article/><kb_category/><kb_topic/><label>Log a Incident</label><order>100</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page><sp_rectangle_menu/><sp_rectangle_menu_item display_value="Log a Request">815e889647101110be5a9db6926d43cb</sp_rectangle_menu_item><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-27 04:12:30</sys_created_on><sys_id>0ecd501a47501110be5a9db6926d43da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Log a Incident</sys_name><sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package><sys_policy/><sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope><sys_update_name>sp_rectangle_menu_item_0ecd501a47501110be5a9db6926d43da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-27 04:12:30</sys_updated_on><table/><type>page</type><url/><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=0ecd501a47501110be5a9db6926d43da"/></record_update>]]></payload>
+        <payload_hash>321719264</payload_hash>
+        <record_name>Log a Incident</record_name>
+        <reverted_from/>
+        <source>681c295147981110be5a9db6926d43e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 04:12:30</sys_created_on>
+        <sys_id>bf2fdcd247501110be5a9db6926d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181a35c644b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 04:12:30</sys_updated_on>
+        <type>Menu Item</type>
+        <update_guid>f72fdcd25a5011107e06740d54b8fe47</update_guid>
+        <update_guid_history>f72fdcd25a5011107e06740d54b8fe47:321719264</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Log a Incident">01376c9247901110be5a9db6926d4305</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 04:47:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_rectangle_menu_item">sp_rectangle_menu_item</sys_db_object>
+        <sys_id>1e751a7205294d3587319d725845c0e9</sys_id>
+        <sys_metadata>0ecd501a47501110be5a9db6926d43da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log a Incident</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_scope_delete display_value="">fa390fa68fdc4f94ae3aa6df9fc21a10</sys_scope_delete>
+        <sys_update_name>sp_rectangle_menu_item_0ecd501a47501110be5a9db6926d43da</sys_update_name>
+        <sys_update_version display_value="sp_rectangle_menu_item_0ecd501a47501110be5a9db6926d43da">bf2fdcd247501110be5a9db6926d4347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 04:47:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

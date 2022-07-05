@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="DELETE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph/>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Log a Request</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page>
+        <sp_rectangle_menu display_value="POC - CSM main menu">94cbc3522fc01110d44693acf699b696</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 06:46:30</sys_created_on>
+        <sys_id>795281d247901110be5a9db6926d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log a Request</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_795281d247901110be5a9db6926d43ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 06:46:30</sys_updated_on>
+        <table/>
+        <type>page</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="DELETE" query="documentkey=795281d247901110be5a9db6926d43ca"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My CSM">0136b21e2f001110d44693acf699b64c</application>
+        <file_path/>
+        <instance_id>962e055edbc8f410431011f848961996</instance_id>
+        <instance_name>dev115856</instance_name>
+        <name>sp_rectangle_menu_item_795281d247901110be5a9db6926d43ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition/><display_1/><display_2/><display_date/><filter/><glyph/><hint/><kb_article/><kb_category/><kb_topic/><label>Log a Request</label><order>100</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page><sp_rectangle_menu display_value="POC - CSM main menu">94cbc3522fc01110d44693acf699b696</sp_rectangle_menu><sp_rectangle_menu_item/><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-27 06:46:30</sys_created_on><sys_id>795281d247901110be5a9db6926d43ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Log a Request</sys_name><sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package><sys_policy/><sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope><sys_update_name>sp_rectangle_menu_item_795281d247901110be5a9db6926d43ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-27 06:46:30</sys_updated_on><table/><type>page</type><url/><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=795281d247901110be5a9db6926d43ca"/></record_update>]]></payload>
+        <payload_hash>-305158348</payload_hash>
+        <record_name>Log a Request</record_name>
+        <reverted_from/>
+        <source>681c295147981110be5a9db6926d43e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 06:46:30</sys_created_on>
+        <sys_id>376245d247901110be5a9db6926d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181a3e9636c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 06:46:30</sys_updated_on>
+        <type>Menu Item</type>
+        <update_guid>7f6245d28c9011109da784b396c67e71</update_guid>
+        <update_guid_history>7f6245d28c9011109da784b396c67e71:-305158348</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Log a Request">b503c15247141110be5a9db6926d435a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 06:49:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_rectangle_menu_item">sp_rectangle_menu_item</sys_db_object>
+        <sys_id>580f78d1891c4e5f91f725c46102c4f9</sys_id>
+        <sys_metadata>795281d247901110be5a9db6926d43ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log a Request</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_scope_delete display_value="">fa390fa68fdc4f94ae3aa6df9fc21a10</sys_scope_delete>
+        <sys_update_name>sp_rectangle_menu_item_795281d247901110be5a9db6926d43ca</sys_update_name>
+        <sys_update_version display_value="sp_rectangle_menu_item_795281d247901110be5a9db6926d43ca">376245d247901110be5a9db6926d4372</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 06:49:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
