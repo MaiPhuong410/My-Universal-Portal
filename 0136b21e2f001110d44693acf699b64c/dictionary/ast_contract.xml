@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Contract" max_length="40" name="ast_contract" sizeclass="94" type="collection">
+    <element label="Contract" max_length="40" name="ast_contract" sizeclass="104" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" hint="Household" label="Household" max_length="32" name="household" reference="csm_household" reference_qual="javascript:new sn_csm_household.HouseHoldUtils().getHouseholdsAvailableForConsumer(current.consumer)" type="reference" use_reference_qualifier="advanced"/>
         <index name="index">
             <element name="household"/>

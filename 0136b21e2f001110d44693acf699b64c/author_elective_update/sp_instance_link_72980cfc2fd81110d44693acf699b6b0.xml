@@ -72,7 +72,7 @@
         <update_guid_history>a63bedd571dc911018e2dda88a41dc41:1666831420,0fc1b1199b981110ad26975bf81bdf17:2074817444,0fc1b1199b981110ad26975bf81bdf17:2074817444,486ea84d1918111068cb3aec34f1874a:-251357191,c95e6801bd581110b97f477f404d62fb:-1168587834,2429c8fc37d81110ba9abee251d987bb:-251357191,3a980cfcbed811101f13f97125118cb1:28925791</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="My Tickets">9608b5a347949510be5a9db6926d4349</sys_audit_delete>
+        <sys_audit_delete display_value="">9608b5a347949510be5a9db6926d4349</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-01 07:53:06</sys_created_on>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target/>
+        <details/>
+        <details_link_text/>
+        <details_page/>
+        <details_url/>
+        <dismiss_options>not_dismissible</dismiss_options>
+        <display_first>true</display_first>
+        <display_style display_value="Normal">704dedd6e7d4030075c2a117c2f6a91b</display_style>
+        <from>2022-07-05 23:00:00</from>
+        <glyph/>
+        <glyph_alt_text/>
+        <name>Portal will be temporarily unavailable from 9:00 PM pacific to 1:00 AM pacific</name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>true</show_for_unauthenticated_users_only>
+        <sn_communities_announcement_type/>
+        <sn_communities_forums/>
+        <sn_communities_notification>false</sn_communities_notification>
+        <sn_communities_notification_sent>false</sn_communities_notification_sent>
+        <sn_communities_portals>5b49418bdb4aa200b1f6f78eaf96195f</sn_communities_portals>
+        <sn_communities_selected_forums/>
+        <summary/>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 07:40:40</sys_created_on>
+        <sys_id>7dd4638947ac5110be5a9db6926d43ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Portal will be temporarily unavailable from 9:00 PM pacific to 1:00 AM pacific</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>announcement_7dd4638947ac5110be5a9db6926d43ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 07:43:39</sys_updated_on>
+        <title>Portal will be temporarily unavailable from 9:00 PM pacific to 1:00 AM pacific</title>
+        <to/>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2,52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=7dd4638947ac5110be5a9db6926d43ea"/>
+</record_update>

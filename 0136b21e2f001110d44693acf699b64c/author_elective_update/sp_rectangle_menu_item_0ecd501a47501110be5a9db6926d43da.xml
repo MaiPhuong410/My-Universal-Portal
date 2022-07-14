@@ -65,7 +65,7 @@
         <update_guid_history>f72fdcd25a5011107e06740d54b8fe47:321719264</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Log a Incident">01376c9247901110be5a9db6926d4305</sys_audit_delete>
+        <sys_audit_delete display_value="">01376c9247901110be5a9db6926d4305</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-27 04:47:32</sys_created_on>

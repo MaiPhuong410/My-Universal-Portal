@@ -51,7 +51,7 @@
         <update_guid_history>9f95715d8e981110de988a45d5b60c3e:-1653333581</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="All My Tickets - Container 1">db76b19d47981110be5a9db6926d4340</sys_audit_delete>
+        <sys_audit_delete display_value="">db76b19d47981110be5a9db6926d4340</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-24 08:00:00</sys_created_on>

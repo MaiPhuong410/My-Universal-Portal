@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+	/* widget controller */
+	var c = this;
+	c.minmaxToolTip = "";
+	handleMaxMinBanner();
+	
+	$('#isc_banner').carousel({
+		interval: 10000, cycle: true
+	});
+	
+	$(document.body).on('focus', '#isc_banner *',function(){
+		$('#isc_banner').carousel('pause');
+	}).on('blur', '#isc_banner *',function(){
+		$('#isc_banner').carousel('cycle');
+	})
+	
+	$(document.body).on('click','.carousel-indicators button',function(){
+		setTimeout(function(){ $('.item.active > div > div > a').focus(); }, 750);
+	});
+	
+	c.minmaxBanner = function(){
+		//debugger;
+		c.data.maximize = !c.data.maximize;
+		handleMaxMinBanner();
+		c.server.update();
+	}
+	
+	function handleMaxMinBanner(){
+		if(c.data.maximize){
+			c.minmaxToolTip = "Minimize";
+			$('#min-max-banner > button').addClass('icon-chevron-up');
+			$('#min-max-banner > button').removeClass('icon-chevron-down');
+			$('#isc_banner').css('height',"250px");
+		}
+		else{
+			c.minmaxToolTip = "Maximize";
+			$('#min-max-banner > button').removeClass('icon-chevron-up');
+			$('#min-max-banner > button').addClass('icon-chevron-down');
+			$('#isc_banner').css('height',"135px");
+		}
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#isc_banner {height:250px;};
+.carousel-inner{height:100%;}
+.carousel-inner &gt; .item &gt; img{
+ 	height:100%; 
+}
+.carousel-inner &gt; .active {
+    height:100%;
+}
+.carousel-caption{
+	bottom: 0;
+  padding-top: 0;
+  top:10px;
+  text-shadow:none;
+  text-align:left;
+}
+
+.item{height:100%;}
+.banner-container &gt; p{color:#ccc; font-size:16px;};
+
+.img-icon{
+  	position: absolute;
+    top: 0;
+    left: 20%;
+    opacity: 0.9;
+}
+.img-hero{
+    width: 100%;  
+  	
+}
+.carousel-indicators button {
+    margin: 5px;
+    background-color: transparent;
+  	border: 1px solid white;
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+}
+
+.carousel-indicators .active {
+    margin: 5px;
+    background-color: #fff;
+}
+
+#min-max-banner{
+	bottom: -20px;
+  right: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+#min-max-banner &gt; button{
+	height: 20px!important;
+  width:40px!important;
+  padding:0px!important;
+  border-radius: 0 0 5px 5px!important;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>CSM POC Banner</name>
+        <option_schema/>
+        <public>false</public>
+        <roles>admin,security_dashboard_user</roles>
+        <script><![CDATA[(function () {
+	var constants = new global.ISCConstants();
+	var gr = new GlideRecordSecure(constants.tables.ISC_BANNER_CONFIG);
+	if (input) {
+		gr.addQuery('user', gs.getUserID());
+		gr.query();
+		if (gr.next()) {
+			gr.show = input.maximize;
+			gr.update();
+		}
+	} else {
+		gr = new GlideRecordSecure(constants.tables.ISC_BANNER_CONFIG);
+		gr.addQuery('user', gs.getUserID());
+		gr.query();
+		if (gr.next()) {
+			if (gr.getValue("show") == "false") {
+				data.maximize = false;
+			} else {
+				data.maximize = true;
+			}
+
+		} else {
+			gr.initialize();
+			gr.show = true;
+			gr.user = gs.getUserID();
+			gr.insert();
+			data.maximize = true;
+		}
+
+		var flag = true;
+		data.list = [];
+		gr = new GlideRecordSecure(constants.tables.SECURITY_UPDATE);
+		gr.query();
+		while (gr.next()) {
+			var banner = {};
+			banner.sec_title = gr.getDisplayValue('sec_title');
+			banner.sec_description = gr.getDisplayValue('sec_description');
+			banner.sec_link = gr.getDisplayValue('sec_link');
+			banner.sec_type = gr.getValue('sec_type');
+			if (flag) {
+				banner.active = "active";
+			}
+			flag = false;
+			data.list.push(banner);
+		}
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-05 10:29:56</sys_created_on>
+        <sys_id>ba420370476c1110be5a9db6926d4315</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>CSM POC Banner</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sp_widget_ba420370476c1110be5a9db6926d4315</sys_update_name>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-05 10:47:36</sys_updated_on>
+        <template><![CDATA[<div id="isc_banner" class="carousel slide" data-ride="carousel" data-pause="hover">
+  <!-- Indicators -->
+  
+  <ol class="carousel-indicators" role="tablist">
+    <button class="{{banner.active}} btn btn-xs m-5" role="tab" tabindex=0 data-target="#isc_banner" ng-repeat="banner in data.list" aria-controls="tabpanel-0-{{$index}}" data-slide-to="{{$index}}"  title="{{banner.sec_title}}" aria-label="{{banner.sec_title}}">	
+      <span class="sr-only">
+        	{{banner.sec_title}}
+      	</span>
+    </button>
+  </ol>
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner"> 
+    
+    <div class="item {{banner.active}}" ng-repeat="banner in data.list" role="tabpanel" id="tabpanel-0-{{$index}}">
+      <img ng-src="{{banner.sec_type}}.jpg" class="img-hero" alt="{{banner.sec_title}}"/>
+      <img ng-src="{{banner.sec_type}}.svg" ng-show="c.data.maximize" width="140" height="140" class="img-icon hidden-xs hidden-sm" alt="{{banner.sec_title}}"/>
+      <div class="carousel-caption"> 
+        <div class="banner-container col-md-offset-3 col-xs-offset-right-9">
+          <h2 class="banner-title">{{banner.sec_title}}</h2> 
+          <p class="hidden-xs" ng-show="c.data.maximize">{{banner.sec_description}}</p>
+          <a ng-href="{{banner.sec_link}}" ng-show="c.data.maximize" target="_blank" class="btn btn-primary" aria-label="Read more about {{banner.sec_title}}" tabindex=0>Read More</a>
+        </div>
+      </div> 
+    </div>
+  </div> 
+ 
+  <!-- Carousel Left controls -->
+  <a class="left carousel-control" href="#isc_banner" data-slide="prev" title="Previous" aria-label="Navigate to previous Carousel slide" role="button" tabindex=0>
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <!-- Carousel right controls -->
+  <a class="right carousel-control" href="#isc_banner" data-slide="next" title="Next" aria-label="Navigate to next Carousel slide" role="button" tabindex=0>
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  
+</div>
+  <div class="" id="min-max-banner">
+    <button class="btn btn-xs btn-primary" ng-class="c.data.maximize ? 'icon-chevron-up' : 'icon-chevron-down'" ng-click="c.minmaxBanner()" aria-label="Click to minimize or maximize banner" title="{{c.minmaxToolTip}}">
+      
+    </button>
+  </div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_inbox_layout">
+    <awa_inbox_layout action="DELETE">
+        <card_layout><![CDATA[<img src="awa_card_layout_guide.png" width="349" height="300" />]]></card_layout>
+        <condition/>
+        <field_1>number</field_1>
+        <field_2/>
+        <field_3/>
+        <field_4/>
+        <field_5/>
+        <is_default>true</is_default>
+        <name>Default CSM Agent layout</name>
+        <order>1000000</order>
+        <service_channel display_value="CSM Agent">a51a0efc47281110be5a9db6926d4373</service_channel>
+        <short_description>Default inbox layout for the CSM Agent Service Channel</short_description>
+        <sys_class_name>awa_inbox_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 06:25:32</sys_created_on>
+        <sys_id>be5ace7447681110be5a9db6926d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default CSM Agent layout</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>awa_inbox_layout_be5ace7447681110be5a9db6926d43b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 06:25:32</sys_updated_on>
+    </awa_inbox_layout>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My CSM">0136b21e2f001110d44693acf699b64c</application>
+        <file_path/>
+        <instance_id>962e055edbc8f410431011f848961996</instance_id>
+        <instance_name>dev115856</instance_name>
+        <name>awa_inbox_layout_be5ace7447681110be5a9db6926d43b8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="awa_inbox_layout"&gt;&lt;awa_inbox_layout action="INSERT_OR_UPDATE"&gt;&lt;card_layout&gt;&lt;![CDATA[&lt;img src="awa_card_layout_guide.png" width="349" height="300" /&gt;]]&gt;&lt;/card_layout&gt;&lt;condition/&gt;&lt;field_1&gt;number&lt;/field_1&gt;&lt;field_2/&gt;&lt;field_3/&gt;&lt;field_4/&gt;&lt;field_5/&gt;&lt;is_default&gt;true&lt;/is_default&gt;&lt;name&gt;Default CSM Agent layout&lt;/name&gt;&lt;order&gt;1000000&lt;/order&gt;&lt;service_channel display_value="CSM Agent"&gt;a51a0efc47281110be5a9db6926d4373&lt;/service_channel&gt;&lt;short_description&gt;Default inbox layout for the CSM Agent Service Channel&lt;/short_description&gt;&lt;sys_class_name&gt;awa_inbox_layout&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-05 06:25:32&lt;/sys_created_on&gt;&lt;sys_id&gt;be5ace7447681110be5a9db6926d43b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Default CSM Agent layout&lt;/sys_name&gt;&lt;sys_package display_value="My CSM" source="x_554940_my_csm"&gt;0136b21e2f001110d44693acf699b64c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My CSM"&gt;0136b21e2f001110d44693acf699b64c&lt;/sys_scope&gt;&lt;sys_update_name&gt;awa_inbox_layout_be5ace7447681110be5a9db6926d43b8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-05 06:25:32&lt;/sys_updated_on&gt;&lt;/awa_inbox_layout&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1440736197</payload_hash>
+        <record_name>Default CSM Agent layout</record_name>
+        <reverted_from/>
+        <source>6986cab447281110be5a9db6926d4386</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 06:25:32</sys_created_on>
+        <sys_id>365ace7447681110be5a9db6926d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181cd0911df0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 06:25:32</sys_updated_on>
+        <type>Inbox Layout</type>
+        <update_guid>7e5ace7434681110b0007e6f09f0adba</update_guid>
+        <update_guid_history>7e5ace7434681110b0007e6f09f0adba:-1440736197</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Default CSM Agent layout">25805a3c47681110be5a9db6926d43a2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 06:52:30</sys_created_on>
+        <sys_db_object display_value="" name="awa_inbox_layout">awa_inbox_layout</sys_db_object>
+        <sys_id>03e901de28ea400c80585d7e91213344</sys_id>
+        <sys_metadata>be5ace7447681110be5a9db6926d43b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default CSM Agent layout</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_scope_delete display_value="">fa390fa68fdc4f94ae3aa6df9fc21a10</sys_scope_delete>
+        <sys_update_name>awa_inbox_layout_be5ace7447681110be5a9db6926d43b8</sys_update_name>
+        <sys_update_version display_value="awa_inbox_layout_be5ace7447681110be5a9db6926d43b8">365ace7447681110be5a9db6926d43bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 06:52:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

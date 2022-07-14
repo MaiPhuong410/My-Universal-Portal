@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f99a6e0347609910be5a9db6926d432b</sp_column>
+        <sp_widget display_value="Current Status">1e699082d7001200a9addd173e24d4e3</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-12 08:49:41</sys_created_on>
+        <sys_id>2a7eee0747609910be5a9db6926d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sp_instance_2a7eee0747609910be5a9db6926d436e</sys_update_name>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-12 08:49:41</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=2a7eee0747609910be5a9db6926d436e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My CSM">0136b21e2f001110d44693acf699b64c</application>
+        <file_path/>
+        <instance_id>962e055edbc8f410431011f848961996</instance_id>
+        <instance_name>dev115856</instance_name>
+        <name>sp_instance_2a7eee0747609910be5a9db6926d436e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">f99a6e0347609910be5a9db6926d432b</sp_column><sp_widget display_value="Current Status">1e699082d7001200a9addd173e24d4e3</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>OliverF</sys_created_by><sys_created_on>2022-07-12 08:49:41</sys_created_on><sys_id>2a7eee0747609910be5a9db6926d436e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package><sys_policy/><sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope><sys_update_name>sp_instance_2a7eee0747609910be5a9db6926d436e</sys_update_name><sys_updated_by>OliverF</sys_updated_by><sys_updated_on>2022-07-12 08:49:41</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=2a7eee0747609910be5a9db6926d436e"/></record_update>]]></payload>
+        <payload_hash>778462585</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c6a77a34472c1110be5a9db6926d43df</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-12 08:49:41</sys_created_on>
+        <sys_id>e67eee0747609910be5a9db6926d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181f1998d4f0000001</sys_recorded_at>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-12 08:49:41</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>227eee07fb609910b13e96ddaf15a570</update_guid>
+        <update_guid_history>227eee07fb609910b13e96ddaf15a570:778462585</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">088e2e0347609910be5a9db6926d43c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-12 08:49:48</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>5482d3df19f64ce4a84aff7f03da0690</sys_id>
+        <sys_metadata>2a7eee0747609910be5a9db6926d436e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_scope_delete display_value="">fa390fa68fdc4f94ae3aa6df9fc21a10</sys_scope_delete>
+        <sys_update_name>sp_instance_2a7eee0747609910be5a9db6926d436e</sys_update_name>
+        <sys_update_version display_value="sp_instance_2a7eee0747609910be5a9db6926d436e">e67eee0747609910be5a9db6926d4370</sys_update_version>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-12 08:49:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

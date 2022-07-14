@@ -72,7 +72,7 @@
         <update_guid_history>7cba211db0dc9110d4fa9099318bb95d:-583642219,043a2d996bdc91103dd30a0ae515be24:76454670</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="My Problems">566813324750d110be5a9db6926d43f3</sys_audit_delete>
+        <sys_audit_delete display_value="">566813324750d110be5a9db6926d43f3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-29 06:58:44</sys_created_on>

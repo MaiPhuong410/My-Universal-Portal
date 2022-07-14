@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field>account</display_field>
+        <field_list>number,short_description,contact,account,contact_type,state,sys_updated_on</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>1</order>
+        <order_by>sys_updated_on</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c14a1b0147ac5110be5a9db6926d4332</sp_column>
+        <sp_page display_value="csm_ticket">65285631c3a1120058879f2974d3aeed</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 06:53:09</sys_created_on>
+        <sys_id>454a1b0147ac5110be5a9db6926d4334</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Cases</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sp_instance_table_454a1b0147ac5110be5a9db6926d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 07:13:01</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <title>Cases</title>
+        <url>/csm_poc?id=your_csm_cases</url>
+        <widget_parameters><![CDATA[{  
+   "show_new":{  
+      "value":false
+   },
+   "show_keywords":{  
+      "value":false
+   },
+   "show_breadcrumbs":{  
+      "value":true
+   },
+   "enable_filter": {
+		"value": "true",
+		"displayValue": "true"
+	},
+    "o": "sys_updated_on",
+    "d": "desc",
+
+}]]></widget_parameters>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=454a1b0147ac5110be5a9db6926d4334"/>
+</record_update>

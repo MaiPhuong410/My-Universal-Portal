@@ -72,7 +72,7 @@
         <update_guid_history>0c5aad99ffdc91101059798ddb251be3:917631045,1c1a61d5fddc9110f76c4657b476a605:-991904873</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="My Surveys">25e1dbfe4710d110be5a9db6926d43e0</sys_audit_delete>
+        <sys_audit_delete display_value="">25e1dbfe4710d110be5a9db6926d43e0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-29 06:30:17</sys_created_on>

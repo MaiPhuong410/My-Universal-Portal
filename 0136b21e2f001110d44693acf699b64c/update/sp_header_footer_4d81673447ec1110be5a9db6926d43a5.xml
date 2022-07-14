@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>SCC POC Footer</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+ if (gs.isLoggedIn()) {
+
+var company_id = gs.getUser().getCompanyID();
+
+
+var grGetCompanyLogo = new GlideRecord('core_company');
+
+grGetCompanyLogo.get(company_id);
+
+data.company_logo_url = grGetCompanyLogo.getDisplayValue('banner_image'); 
+
+//if(data.company_logo_url =='') 
+	//data.company_logo_url = false; // When you don't get dynamic image path
+}
+
+
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-05 12:47:20</sys_created_on>
+        <sys_id>4d81673447ec1110be5a9db6926d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SCC POC Footer</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sp_header_footer_4d81673447ec1110be5a9db6926d43a5</sys_update_name>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-05 12:47:20</sys_updated_on>
+        <template><![CDATA[<img ng-src="{{data.company_logo_url}}" height="48px" />]]></template>
+    </sp_header_footer>
+</record_update>

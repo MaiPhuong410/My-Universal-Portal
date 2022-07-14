@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_ex_sp_activity_configuration">
+    <sn_ex_sp_activity_configuration action="DELETE">
+        <active>true</active>
+        <activity_name>My Case</activity_name>
+        <advanced>false</advanced>
+        <external_link/>
+        <internal_link display_value="csm_index_poc">94decb1a2fc01110d44693acf699b6c0</internal_link>
+        <items_count_script/>
+        <list_view_script/>
+        <order>100</order>
+        <primary>false</primary>
+        <sort_by>sys_created_on</sort_by>
+        <sort_order>asc</sort_order>
+        <sys_class_name>sn_ex_sp_activity_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 02:22:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>b22c96c147a85110be5a9db6926d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sn_ex_sp_activity_configuration_b22c96c147a85110be5a9db6926d43ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 02:22:49</sys_updated_on>
+        <target_page>INTERNAL</target_page>
+    </sn_ex_sp_activity_configuration>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My CSM">0136b21e2f001110d44693acf699b64c</application>
+        <file_path/>
+        <instance_id>962e055edbc8f410431011f848961996</instance_id>
+        <instance_name>dev115856</instance_name>
+        <name>sn_ex_sp_activity_configuration_b22c96c147a85110be5a9db6926d43ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_ex_sp_activity_configuration"><sn_ex_sp_activity_configuration action="INSERT_OR_UPDATE"><active>true</active><activity_name>My Case</activity_name><advanced>false</advanced><external_link/><internal_link display_value="csm_index_poc">94decb1a2fc01110d44693acf699b6c0</internal_link><items_count_script/><list_view_script/><order>100</order><primary>false</primary><sort_by>sys_created_on</sort_by><sort_order>asc</sort_order><sys_class_name>sn_ex_sp_activity_configuration</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-06 02:22:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>b22c96c147a85110be5a9db6926d43ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Case</sys_name><sys_overrides/><sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package><sys_policy/><sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope><sys_update_name>sn_ex_sp_activity_configuration_b22c96c147a85110be5a9db6926d43ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-06 02:22:49</sys_updated_on><target_page>INTERNAL</target_page></sn_ex_sp_activity_configuration></record_update>]]></payload>
+        <payload_hash>-1469411996</payload_hash>
+        <record_name>My Case</record_name>
+        <reverted_from/>
+        <source>c6a77a34472c1110be5a9db6926d43df</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 02:22:49</sys_created_on>
+        <sys_id>816cd6c147a85110be5a9db6926d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d151367d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 02:22:49</sys_updated_on>
+        <type>Activity Configuration</type>
+        <update_guid>c96cd6c148a8511047b4a861d25e9d06</update_guid>
+        <update_guid_history>c96cd6c148a8511047b4a861d25e9d06:-1469411996</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Case">28bc1ec147a85110be5a9db6926d43bb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 02:24:10</sys_created_on>
+        <sys_db_object display_value="" name="sn_ex_sp_activity_configuration">sn_ex_sp_activity_configuration</sys_db_object>
+        <sys_id>2937c0c066e94a82b204f6800feaa499</sys_id>
+        <sys_metadata>b22c96c147a85110be5a9db6926d43ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Case</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_scope_delete display_value="">fa390fa68fdc4f94ae3aa6df9fc21a10</sys_scope_delete>
+        <sys_update_name>sn_ex_sp_activity_configuration_b22c96c147a85110be5a9db6926d43ff</sys_update_name>
+        <sys_update_version display_value="sn_ex_sp_activity_configuration_b22c96c147a85110be5a9db6926d43ff">816cd6c147a85110be5a9db6926d4307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 02:24:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="cd-styled-content.css">baa1255a2c187410f877ccaf03141417</sp_dependency>
+        <sp_widget display_value="POC Content Experience">f0759c5147e49110be5a9db6926d43bf</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-06 11:11:44</sys_created_on>
+        <sys_id>8d75189147e49110be5a9db6926d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cd-styled-content.css.Copy of Content Experience</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_8d75189147e49110be5a9db6926d439a</sys_update_name>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-06 11:11:44</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

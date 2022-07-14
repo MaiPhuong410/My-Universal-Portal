@@ -72,7 +72,7 @@
         <update_guid_history>d3bc3d55fbd81110c729384583895074:-1918085244,24bcf955add8111076a86613537cbeac:-1425752413,9fcf785900989110532ec4f9d19c2146:-1918085244,e6fe389138989110886fac0af39853eb:-1044819216</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="My Incidents">d2fe8bfa4710d110be5a9db6926d43d9</sys_audit_delete>
+        <sys_audit_delete display_value="">d2fe8bfa4710d110be5a9db6926d43d9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-29 06:17:29</sys_created_on>

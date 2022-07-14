@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_carousel">
+    <sp_instance_carousel action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id>POC Carousel</id>
+        <interval>5000</interval>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f5b9b2f4472c1110be5a9db6926d43f7</sp_column>
+        <sp_widget display_value="POC Carousel">b2bacbbc476c1110be5a9db6926d43d6</sp_widget>
+        <sys_class_name>sp_instance_carousel</sys_class_name>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-05 10:53:43</sys_created_on>
+        <sys_id>83b78bb4476c1110be5a9db6926d436b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>POC Carousel</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sp_instance_carousel_83b78bb4476c1110be5a9db6926d436b</sys_update_name>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-05 11:08:41</sys_updated_on>
+        <title>POC Carousel</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_carousel>
+    <sys_translated_text action="DELETE" query="documentkey=83b78bb4476c1110be5a9db6926d436b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My CSM">0136b21e2f001110d44693acf699b64c</application>
+        <file_path/>
+        <instance_id>962e055edbc8f410431011f848961996</instance_id>
+        <instance_name>dev115856</instance_name>
+        <name>sp_instance_carousel_83b78bb4476c1110be5a9db6926d436b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_carousel"><sp_instance_carousel action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id>POC Carousel</id><interval>5000</interval><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">f5b9b2f4472c1110be5a9db6926d43f7</sp_column><sp_widget display_value="POC Carousel">b2bacbbc476c1110be5a9db6926d43d6</sp_widget><sys_class_name>sp_instance_carousel</sys_class_name><sys_created_by>OliverF</sys_created_by><sys_created_on>2022-07-05 10:53:43</sys_created_on><sys_id>83b78bb4476c1110be5a9db6926d436b</sys_id><sys_mod_count>3</sys_mod_count><sys_name>POC Carousel</sys_name><sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package><sys_policy/><sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope><sys_update_name>sp_instance_carousel_83b78bb4476c1110be5a9db6926d436b</sys_update_name><sys_updated_by>OliverF</sys_updated_by><sys_updated_on>2022-07-05 11:08:41</sys_updated_on><title>POC Carousel</title><url/><widget_parameters/></sp_instance_carousel><sys_translated_text action="delete_multiple" query="documentkey=83b78bb4476c1110be5a9db6926d436b"/></record_update>]]></payload>
+        <payload_hash>-575198502</payload_hash>
+        <record_name>POC Carousel</record_name>
+        <reverted_from/>
+        <source>c6a77a34472c1110be5a9db6926d43df</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-05 11:08:41</sys_created_on>
+        <sys_id>e22bc3fc476c1110be5a9db6926d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181ce0c4e610000001</sys_recorded_at>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-05 11:08:41</sys_updated_on>
+        <type>Instance of Carousel</type>
+        <update_guid>2e2bc3fceb6c111042ea31c48f83ef3d</update_guid>
+        <update_guid_history>2e2bc3fceb6c111042ea31c48f83ef3d:-575198502,0e38c3f4c86c111018c4c5f8daa09175:186771040,dfd7cfb4456c111088ddafd404c13910:210300031,cfb78bb4d86c1110ff4ddbd6b3c92c6c:1304603878</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="POC Carousel">78601cd947a49110be5a9db6926d4355</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-06 10:49:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_carousel">sp_instance_carousel</sys_db_object>
+        <sys_id>13d3cc01e5734f16aab95884bd680f64</sys_id>
+        <sys_metadata>83b78bb4476c1110be5a9db6926d436b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POC Carousel</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_scope_delete display_value="">fa390fa68fdc4f94ae3aa6df9fc21a10</sys_scope_delete>
+        <sys_update_name>sp_instance_carousel_83b78bb4476c1110be5a9db6926d436b</sys_update_name>
+        <sys_update_version display_value="sp_instance_carousel_83b78bb4476c1110be5a9db6926d436b">e22bc3fc476c1110be5a9db6926d433e</sys_update_version>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-06 10:49:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
