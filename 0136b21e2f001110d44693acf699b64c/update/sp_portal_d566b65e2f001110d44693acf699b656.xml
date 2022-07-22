@@ -22,7 +22,7 @@ $btn-default-bg:#fff;&#13;
 $text-muted:#a7a9ac;&#13;
 $sp-tagline-color:#000000</css_variables>
         <default>false</default>
-        <enable_ais>false</enable_ais>
+        <enable_ais>true</enable_ais>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
         <homepage display_value="csm_index_poc">94decb1a2fc01110d44693acf699b6c0</homepage>
@@ -44,15 +44,15 @@ $sp-tagline-color:#000000</css_variables>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-15 04:57:51</sys_created_on>
         <sys_id>d566b65e2f001110d44693acf699b656</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name>Self Service Portal</sys_name>
         <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
         <sys_policy/>
         <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
         <sys_update_name>sp_portal_d566b65e2f001110d44693acf699b656</sys_update_name>
-        <sys_updated_by>OliverF</sys_updated_by>
-        <sys_updated_on>2022-07-05 12:54:36</sys_updated_on>
-        <theme display_value="SCC POC">4aa0a73447ec1110be5a9db6926d43b5</theme>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-21 07:28:13</sys_updated_on>
+        <theme display_value="My Theme">ae3ae34347dcd110be5a9db6926d43c2</theme>
         <title>Self Service Portal</title>
         <ts_index_group/>
         <url_suffix>csm_poc</url_suffix>

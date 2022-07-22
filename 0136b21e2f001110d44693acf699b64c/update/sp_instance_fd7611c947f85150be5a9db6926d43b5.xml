@@ -6,27 +6,27 @@
         <css/>
         <glyph/>
         <id/>
-        <order>1</order>
+        <order>3</order>
         <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">cddd224547e85110be5a9db6926d43c9</sp_column>
-        <sp_widget display_value="My Items">6e449453c33030105a09f0ad9840ddf0</sp_widget>
+        <sp_widget display_value="Video Carousel (CD)">1b6504a30b0303008cd6e7ae37673ae3</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-06 03:39:51</sys_created_on>
-        <sys_id>590ee24547e85110be5a9db6926d43dd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_created_on>2022-07-18 07:33:01</sys_created_on>
+        <sys_id>fd7611c947f85150be5a9db6926d43b5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Meet SCC</sys_name>
         <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
         <sys_policy/>
         <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
-        <sys_update_name>sp_instance_590ee24547e85110be5a9db6926d43dd</sys_update_name>
+        <sys_update_name>sp_instance_fd7611c947f85150be5a9db6926d43b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 06:57:28</sys_updated_on>
-        <title/>
-        <url>?id=csm__cases&amp;table=sn_customerservice_case&amp;view=csp</url>
+        <sys_updated_on>2022-07-18 08:23:18</sys_updated_on>
+        <title>Meet SCC</title>
+        <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=590ee24547e85110be5a9db6926d43dd"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=fd7611c947f85150be5a9db6926d43b5"/>
 </record_update>

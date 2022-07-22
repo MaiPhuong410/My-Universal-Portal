@@ -15,28 +15,28 @@
         <label>Audio Visual Services</label>
         <order>100</order>
         <record_script/>
-        <sc_cat_item display_value="Company policies">91b257180a0a3c74012fb6b78e634614</sc_cat_item>
+        <sc_cat_item/>
         <sc_category/>
         <short_description/>
         <sp_page display_value="avs_hp">33c789e947a8d110be5a9db6926d4319</sp_page>
-        <sp_rectangle_menu display_value="Entitlements">957d1b522f441110d44693acf699b6f1</sp_rectangle_menu>
-        <sp_rectangle_menu_item/>
+        <sp_rectangle_menu/>
+        <sp_rectangle_menu_item display_value="Your Services">2cdcd542473c5550be5a9db6926d43e2</sp_rectangle_menu_item>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-06-15 07:56:06</sys_created_on>
-        <sys_id>d92f9fd22f441110d44693acf699b66f</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-21 10:40:54</sys_created_on>
+        <sys_id>809d1942473c5550be5a9db6926d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Audio Visual Services</sys_name>
         <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
         <sys_policy/>
         <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
-        <sys_update_name>sp_rectangle_menu_item_d92f9fd22f441110d44693acf699b66f</sys_update_name>
+        <sys_update_name>sp_rectangle_menu_item_809d1942473c5550be5a9db6926d43bd</sys_update_name>
         <sys_updated_by>OliverF</sys_updated_by>
-        <sys_updated_on>2022-07-21 10:44:21</sys_updated_on>
+        <sys_updated_on>2022-07-21 10:40:54</sys_updated_on>
         <table/>
         <type>page</type>
         <url/>
         <url_target/>
     </sp_rectangle_menu_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=d92f9fd22f441110d44693acf699b66f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=809d1942473c5550be5a9db6926d43bd"/>
 </record_update>

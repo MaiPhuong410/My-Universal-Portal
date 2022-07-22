@@ -27,6 +27,7 @@
       $brand-primary-darker:                  #333579; //--now-color--primary-2&#13;
       $brand-primary-lighter:                 #8789D2; //--now-color--interactive-1&#13;
       $brand-primary-lightest:                #D1D2EE; //--now-color--primary-0&#13;
+      $brand-primary-opacity:				 #E3E4F2; //--now-color--primary-0 (with opacity 0.5)&#13;
 &#13;
       //==Brand Darker colors&#13;
       $brand-danger-darker:                   #CC293C!default; //--now-color_alert--critical-3&#13;
@@ -358,7 +359,7 @@
       $state-warning-bg:                          #FBF7BC; //--now-color_alert--warning-0&#13;
       $state-warning-border:                      $brand-warning;&#13;
 &#13;
-      $state-danger-text:                         $text-primary;&#13;
+      $state-danger-text:                         $btn-danger-bg;&#13;
       $state-danger-bg:                           #FFCCD2; //--now-color_alert--critical-0&#13;
       $state-danger-border:                       $brand-danger;&#13;
 &#13;
@@ -532,18 +533,18 @@
         <footer_fixed>false</footer_fixed>
         <header display_value="CSM Unified Portal Header">451ffe6e3b103200367aee1234efc415</header>
         <name>My Theme</name>
-        <navbar_fixed>true</navbar_fixed>
+        <navbar_fixed>false</navbar_fixed>
         <sys_class_name>sp_theme</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-30 02:56:16</sys_created_on>
         <sys_id>ae3ae34347dcd110be5a9db6926d43c2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>My Theme</sys_name>
         <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
         <sys_policy/>
         <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
         <sys_update_name>sp_theme_ae3ae34347dcd110be5a9db6926d43c2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-30 03:21:43</sys_updated_on>
+        <sys_updated_on>2022-07-18 07:57:13</sys_updated_on>
     </sp_theme>
 </record_update>
