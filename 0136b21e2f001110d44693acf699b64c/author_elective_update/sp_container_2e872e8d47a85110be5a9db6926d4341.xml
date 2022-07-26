@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color>#c0dcfa</background_color>
+        <background_image>a19e0a8447fc5d10be5a9db6926d43f2</background_image>
+        <background_style>cover</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Self Service - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="csm_index_poc">94decb1a2fc01110d44693acf699b6c0</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 03:11:31</sys_created_on>
+        <sys_id>2e872e8d47a85110be5a9db6926d4341</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Self Service - Container 2</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sp_container_2e872e8d47a85110be5a9db6926d4341</sys_update_name>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-15 09:04:17</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My CSM">0136b21e2f001110d44693acf699b64c</application>
+        <file_path/>
+        <instance_id>962e055edbc8f410431011f848961996</instance_id>
+        <instance_name>dev115856</instance_name>
+        <name>sp_container_2e872e8d47a85110be5a9db6926d4341</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color>#c0dcfa</background_color><background_image>a19e0a8447fc5d10be5a9db6926d43f2</background_image><background_style>cover</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Self Service - Container 2</name><order>2</order><sp_page display_value="csm_index_poc">94decb1a2fc01110d44693acf699b6c0</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-06 03:11:31</sys_created_on><sys_id>2e872e8d47a85110be5a9db6926d4341</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Self Service - Container 2</sys_name><sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package><sys_policy/><sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope><sys_update_name>sp_container_2e872e8d47a85110be5a9db6926d4341</sys_update_name><sys_updated_by>OliverF</sys_updated_by><sys_updated_on>2022-07-15 09:04:17</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>907995535</payload_hash>
+        <record_name>Self Service - Container 2</record_name>
+        <reverted_from/>
+        <source>5288795247bc9550be5a9db6926d43a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-22 07:19:31</sys_created_on>
+        <sys_id>07b9fdd247bc9550be5a9db6926d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18224c697ea0000001</sys_recorded_at>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-22 07:19:31</sys_updated_on>
+        <type>Container</type>
+        <update_guid>0fb9fdd2fcbc9550e7103b94d5754ec9</update_guid>
+        <update_guid_history>0fb9fdd2fcbc9550e7103b94d5754ec9:907995535,a19e8e84a2fc5d108119665c4442f9d2:-1692926730,e99e0a846ffc5d10fba8f4ab54c36ef5:-1888138677,cb31bb4d8aec5110b1bdbf26df226fa5:1430154450,9d117b4d22ec51107e33838c3391b9e8:685124906,5811bf0d53ec511025c46df10229496c:-1683590981,39f86ecd9ba851103038871a64afaf3e:-1963278644,fc58aacddaa851109a51d79a068960c1:-1030060926,c05822cdc6a85110bcf6d02b15f04c31:1207301122,62872e8d61a8511030084a2374a6b643:1814527680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Self Service - Container 2">e4c9311647bc9550be5a9db6926d4345</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-22 07:19:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>3409d9c336c24a90a68d51d73aec1ae1</sys_id>
+        <sys_metadata>2e872e8d47a85110be5a9db6926d4341</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self Service - Container 2</sys_name>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_scope_delete display_value="">fa390fa68fdc4f94ae3aa6df9fc21a10</sys_scope_delete>
+        <sys_update_name>sp_container_2e872e8d47a85110be5a9db6926d4341</sys_update_name>
+        <sys_update_version display_value="sp_container_2e872e8d47a85110be5a9db6926d4341">07b9fdd247bc9550be5a9db6926d43ca</sys_update_version>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-22 07:19:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

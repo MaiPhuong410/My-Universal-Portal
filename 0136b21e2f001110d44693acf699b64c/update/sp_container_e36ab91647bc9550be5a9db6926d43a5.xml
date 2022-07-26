@@ -6,22 +6,22 @@
         <bootstrap_alt>false</bootstrap_alt>
         <class_name/>
         <container_class_name/>
-        <name>Self Service - Container 3</name>
-        <order>3</order>
+        <name>Self Service - Container 1</name>
+        <order>1</order>
         <sp_page display_value="csm_index_poc">94decb1a2fc01110d44693acf699b6c0</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-06-22 10:39:46</sys_created_on>
-        <sys_id>44e788bc2fd81110d44693acf699b6f0</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Self Service - Container 3</sys_name>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-22 07:22:32</sys_created_on>
+        <sys_id>e36ab91647bc9550be5a9db6926d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self Service - Container 1</sys_name>
         <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
         <sys_policy/>
         <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
-        <sys_update_name>sp_container_44e788bc2fd81110d44693acf699b6f0</sys_update_name>
+        <sys_update_name>sp_container_e36ab91647bc9550be5a9db6926d43a5</sys_update_name>
         <sys_updated_by>OliverF</sys_updated_by>
-        <sys_updated_on>2022-07-22 07:22:33</sys_updated_on>
+        <sys_updated_on>2022-07-22 07:22:32</sys_updated_on>
         <title/>
         <width>container</width>
     </sp_container>

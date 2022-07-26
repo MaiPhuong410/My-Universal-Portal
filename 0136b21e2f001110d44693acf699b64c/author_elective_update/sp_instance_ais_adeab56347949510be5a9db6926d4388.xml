@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">85a97dd247bc9550be5a9db6926d4386</sp_column>
+        <sp_widget display_value="My Homepage Search">f9aaf56747949510be5a9db6926d43d8</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-01 08:05:37</sys_created_on>
+        <sys_id>adeab56347949510be5a9db6926d4388</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_update_name>sp_instance_ais_adeab56347949510be5a9db6926d4388</sys_update_name>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-22 07:19:16</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=adeab56347949510be5a9db6926d4388"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My CSM">0136b21e2f001110d44693acf699b64c</application>
+        <file_path/>
+        <instance_id>962e055edbc8f410431011f848961996</instance_id>
+        <instance_name>dev115856</instance_name>
+        <name>sp_instance_ais_adeab56347949510be5a9db6926d4388</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="2">85a97dd247bc9550be5a9db6926d4386</sp_column><sp_widget display_value="My Homepage Search">f9aaf56747949510be5a9db6926d43d8</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-01 08:05:37</sys_created_on><sys_id>adeab56347949510be5a9db6926d4388</sys_id><sys_mod_count>8</sys_mod_count><sys_name/><sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package><sys_policy/><sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope><sys_update_name>sp_instance_ais_adeab56347949510be5a9db6926d4388</sys_update_name><sys_updated_by>OliverF</sys_updated_by><sys_updated_on>2022-07-22 07:19:16</sys_updated_on><title/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=adeab56347949510be5a9db6926d4388"/></record_update>]]></payload>
+        <payload_hash>-50498465</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5288795247bc9550be5a9db6926d43a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-22 07:19:16</sys_created_on>
+        <sys_id>6fa97dd247bc9550be5a9db6926d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18224c65e420000001</sys_recorded_at>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-22 07:19:16</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>a7a97dd234bc9550b6e54f2ea67241fe</update_guid>
+        <update_guid_history>a7a97dd234bc9550b6e54f2ea67241fe:-50498465,b4a1f38dacec5110647d1d9d4ad3f217:-1588832425,4481bb4d12ec511090ad83f86b3ab19e:-1846582253,ed97ee4df7a851109346e0e4dfd7ae93:-139568307,3b162a4d13a85110e8f2d61f1089c92a:-1846582253,00d5a24d41a851106b6098f7461d25d5:1750220780,b475aa0d95a851107f2f217b1c7a4a7d:540607763,4565ea0d50a85110de5bb8b660253848:1750220780,8576c2b4432811103a11df01f4cbda99:1041280765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a59a791647bc9550be5a9db6926d4366</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>OliverF</sys_created_by>
+        <sys_created_on>2022-07-22 07:23:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>39e0632860db48349406416f21402d64</sys_id>
+        <sys_metadata>adeab56347949510be5a9db6926d4388</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My CSM" source="x_554940_my_csm">0136b21e2f001110d44693acf699b64c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My CSM">0136b21e2f001110d44693acf699b64c</sys_scope>
+        <sys_scope_delete display_value="">fa390fa68fdc4f94ae3aa6df9fc21a10</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_adeab56347949510be5a9db6926d4388</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_adeab56347949510be5a9db6926d4388">6fa97dd247bc9550be5a9db6926d43fe</sys_update_version>
+        <sys_updated_by>OliverF</sys_updated_by>
+        <sys_updated_on>2022-07-22 07:23:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
